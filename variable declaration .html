@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var a=10;
+		//document.write(a);
+		let b=20;
+		//let b=30; wrong --> redeclaration is not possible
+		b=30;// reintialization is possible
+		//document.write(b);
+		{
+			let c=30;
+			//document.write(c);
+		}
+		//document.write(c); not possible bcoz c is block scope variable
+		const pi = 3.14;
+		//pi = 4.20;
+		const atm = 123456789;
+		document.write(atm);
+		//document.write(pi);
+	</script>
+
+</body>
+</html>
